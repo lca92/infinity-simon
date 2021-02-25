@@ -1,0 +1,66 @@
+body {
+  background-color: lightgray;
+  text-align: center;
+  margin: 10%;
+  font-family: "DotGothic16", sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  padding: 1%;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+
+p {
+  padding-bottom: 2%;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.colors {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+}
+
+.green {
+  background-color: green;
+  border-top-left-radius: 100%;
+}
+
+.red {
+  background-color: red;
+  border-top-right-radius: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+}
+
+.blue {
+  background-color: blue;
+  border-bottom-right-radius: 100%;
+}
+
+/* .menu {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  top: 135px;
+  left: 540px;
+} */
+
+footer p {
+  padding-top: 10%;
+  font-size: 0.7em;
+}
