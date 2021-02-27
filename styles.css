@@ -90,3 +90,10 @@ a {
 .unclickable {
   pointer-events: none;
 }
+
+@media (max-width: 375px) {
+  .colors {
+    width: 120px;
+    height: 120px;
+  }
+}
