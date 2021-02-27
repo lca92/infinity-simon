@@ -18,32 +18,56 @@
       correct order.
     </p>
     <p>How long will you last?</p>
+
     <div>
-      <!-- Botões de start e count. Divs temporárias -->
       <div id="menu">
         <div>
-          <div>START</div>
-          <div>...</div>
-          </div>
+          <!-- que ódio -->
+          <button type="button" id="start">START</button>
+        </div>
         <div>
           <div>COUNT</div>
-          <div>...</div>
+          <div id="counter">...</div>
         </div>
       </div>
     </div>
+
     <div>
-      <div class="colors green"></div>
-      <div class="colors red"></div>
+      <audio
+        src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"
+        data-sound="green"
+      ></audio>
+      <audio
+        src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"
+        data-sound="red"
+      ></audio>
+      <audio
+        src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"
+        data-sound="yellow"
+      ></audio>
+      <audio
+        src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"
+        data-sound="blue"
+      ></audio>
     </div>
-    <div>
-      <div class="colors yellow"></div>
-      <div class="colors blue"></div>
+
+    <div id="colorsGrid">
+      <div>
+        <div class="colors green" data-tile="green"></div>
+        <div class="colors red" data-tile="red"></div>
+      </div>
+      <div>
+        <div class="colors yellow" data-tile="yellow"></div>
+        <div class="colors blue" data-tile="blue"></div>
+      </div>
     </div>
-    <!-- <div class="menu"></div> -->
+
     <footer>
       <p>
         Made with love by <a href="https://github.com/lca92">Lena Araújo</a>
       </p>
     </footer>
+
+    <script src="./simon.js"></script>
   </body>
 </html>

@@ -17,6 +17,13 @@ p {
   padding-bottom: 2%;
 }
 
+button {
+  background: transparent;
+  border: none !important;
+  font-family: "DotGothic16", sans-serif;
+  font-size: 18px;
+}
+
 #menu {
   display: flex;
   justify-content: space-around;
@@ -30,37 +37,56 @@ p {
 }
 
 .green {
-  background-color: green;
+  background-color: darkgreen;
   border-top-left-radius: 100%;
 }
 
+.green:active,
+.green.activated {
+  background-color: greenyellow;
+}
+
 .red {
-  background-color: red;
+  background-color: darkred;
   border-top-right-radius: 100%;
 }
 
+.red:active,
+.red.activated {
+  background-color: red;
+}
+
 .yellow {
-  background-color: yellow;
+  background-color: orange;
   border-bottom-left-radius: 100%;
 }
 
+.yellow:active,
+.yellow.activated {
+  background-color: yellow;
+}
+
 .blue {
-  background-color: blue;
+  background-color: darkblue;
   border-bottom-right-radius: 100%;
 }
 
-/* .menu {
-  display: inline-block;
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  background-color: black;
-  top: 135px;
-  left: 540px;
-} */
+.blue:active,
+.blue.activated {
+  background-color: lightblue;
+}
 
 footer p {
   padding-top: 10%;
   font-size: 0.7em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.unclickable {
+  pointer-events: none;
 }
